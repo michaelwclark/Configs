@@ -7,7 +7,7 @@
 		"/Users/michaelclark/workspaces/wf/developer-scripts",
 		"/Users/michaelclark/workspaces"
 	],
-	"last_window_id": 19,
+	"last_window_id": 20,
 	"settings":
 	{
 		"new_window_height": 856.0,
@@ -19,321 +19,6 @@
 				[
 				]
 			},
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 329.0,
-				"selected_items":
-				[
-					[
-						"key",
-						"Preferences: Key Bindings - User"
-					],
-					[
-						"ke",
-						"Keymaps: Cheat Sheet"
-					],
-					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
-						"ind",
-						"Indentation: Reindent Lines"
-					],
-					[
-						"inde",
-						"Indentation: Reindent Lines"
-					],
-					[
-						"python",
-						"Set Syntax: Python"
-					],
-					[
-						"settings",
-						"Preferences: Settings - Default"
-					],
-					[
-						"user",
-						"Preferences: Settings - User"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"shell",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
-						"set shell",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
-						"KEY",
-						"FindKeyConflicts: All Conflicts"
-					],
-					[
-						"SETTINGS",
-						"Preferences: Settings - User"
-					],
-					[
-						"INSTA",
-						"Package Control: Install Package"
-					],
-					[
-						"keyma",
-						"Keymaps: Cheat Sheet"
-					],
-					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"cold",
-						"Code Folding: Fold Tag Attributes"
-					],
-					[
-						"pre",
-						"Preferences: Settings - User"
-					],
-					[
-						"settings us",
-						"Preferences: Settings - User"
-					]
-				],
-				"width": 467.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/michaelclark/.m2/settings.xml",
-				"/Users/michaelclark/workspaces/configs/Projects/WebFilings.sublime-project",
-				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Default/Default (Linux).sublime-keymap",
-				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/settingslocal.py",
-				"/Users/michaelclark/workspaces/.zshrc",
-				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-				"/Users/michaelclark/workspaces/wf/z_bigsky/build-user.properties",
-				"/Users/michaelclark/.oh-my-zsh/lib/theme-and-appearance.zsh",
-				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
-				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh.bak",
-				"/Users/michaelclark/.oh-my-zsh/lib/original_aliases.zsh",
-				"/Users/michaelclark/workspaces/config/git_config.sh",
-				"/Users/michaelclark/workspaces/config/git_config_example.conf",
-				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.sh",
-				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.1",
-				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-				"/Users/michaelclark/Documents/OneLoginNotes.txt",
-				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Vintage/Default (Linux).sublime-keymap",
-				"/Users/michaelclark/workspace/config/aliases.zsh"
-			],
-			"find":
-			{
-				"height": 35.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-					""
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"ctrl+up",
-					"ctrl+",
-					"10fa4068",
-					"pip",
-					"up",
-					"end",
-					"ctrl",
-					"CTRL SHIFT UP",
-					"MOVE",
-					"spaces",
-					"bradybecker",
-					"git",
-					"zc=",
-					"open",
-					"FOLD",
-					"new",
-					"OS"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-					"michaelclark"
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					0.549088237442,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"replace":
-			{
-				"height": 68.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-					[
-						"build-user",
-						"BigSky/build-user.properties"
-					],
-					[
-						"settingsloc",
-						"BigSky/settingslocal.py"
-					],
-					[
-						"ocal",
-						"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/settingslocal.py"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": false,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 208.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 1404.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"contents": "    alias acm='cd ~/workspaces/ACM'\n     alias scripts='cd ~/workspaces/scripts'\n+    alias cfg_zsh='~/.oh-my-zsh'\n+    alias cfgs='~/workspaces/config/'\n\n # ------ Bigsky ------ #\n     alias bigsky='~/workspaces/wf/bigsky/z_bigsky && source ~/dev/wf/sky/bin/activate'\n@@ -20,7 +22,7 @@\n     alias mvn='nocorrect mvn'\n     alias skyup='pip install -Ur requirements_dev.txt && pip install -Ur requirements.txt'\n     alias wfhome='~/workspaces/wf/bigsky/z_bigsky/apps/home/ '\n-    alias wfrich='~/workspaces/wf/bigsky/z_bigsky/externals/richapps/ && workon richapps'\n+    alias wfrich='~/workspaces/wf/bigsky/z_bigsky/externals/richapps/'\n\n # ------ Build Tools ------ #\n     alias basic='ant clean-no-flex stage-no-flex generate-media'\n@@ -32,8 +34,8 @@\n     alias build_generate='ant -f build_parallel.xml generate-as'\n\n # ------ Web Bones ------ #\n-    alias webbones='~/workspaces/wf/web-bones'\n-    alias ra2='~/workspaces/wf/bigsky/richapps/richapps/build'\n+    alias bones='~/workspaces/wf/web-bones'\n+    alias bonediff='git diff WebBones/master'\n\n # ------ Python ------ #\n:-    # Display a file tree\n-    function tree {\n-        find $&;{1:-.} -print | sed -e ’s;[^/]*/;|____;g;s;____|; |;g’\n-    }\n-\n # ------ No Correct ------#\n     # alias subl='/Applications/Sublime\\ Text\\ 2.app/Contents/MacOS/Sublime\\ Text\\ 2 2>&1 > /dev/null &'\n     # alias subl='/Applications/Sublime\\ Text\\ 2.app/Contents/MacOS/Sublime\\ Text\\ 2 > /dev/null 2>&1'\n@@ -313,7 +310,8 @@\n     # alias python='/usr/bin/python'\n     alias chrome=\"open /Applications/Google\\ Chrome.app/\" #--args --disable-web-security\"\n    # alias ctags=\"`brew --prefix`/bin/ctags\"\n-    alias diff=colordiff\n+    alias diff='colordiff'\n+    alias cls='clear'\n+    alias cls='clear'\n",
-					"settings":
-					{
-						"buffer_size": 1744,
-						"line_ending": "Unix",
-						"name": "alias acm='cd ~/workspaces/ACM'"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/.gitignore",
-					"settings":
-					{
-						"buffer_size": 1289,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
-					"settings":
-					{
-						"buffer_size": 12393,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/configs/.gitignore",
-					"settings":
-					{
-						"buffer_size": 525,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/.oh-my-zsh/.git/COMMIT_EDITMSG",
-					"settings":
-					{
-						"buffer_size": 82,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/configs/ST2/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 803,
-						"line_ending": "Unix"
-					}
-				}
-			],
 			"build_system": "",
 			"command_palette":
 			{
@@ -518,182 +203,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"groups":
-			[
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"settings":
-							{
-								"buffer_size": 1744,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1736,
-										1736
-									]
-								],
-								"settings":
-								{
-									"auto_name": "alias acm='cd ~/workspaces/ACM'",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 5.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/.gitignore",
-							"settings":
-							{
-								"buffer_size": 1289,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 556.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 2,
-							"file": "/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
-							"settings":
-							{
-								"buffer_size": 12393,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										320,
-										320
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/michaelclark/workspaces/configs/.gitignore",
-							"settings":
-							{
-								"buffer_size": 525,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										37,
-										27
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/Users/michaelclark/.oh-my-zsh/.git/COMMIT_EDITMSG",
-							"settings":
-							{
-								"buffer_size": 82,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/Users/michaelclark/workspaces/configs/ST2/Packages/User/Preferences.sublime-settings",
-							"settings":
-							{
-								"buffer_size": 803,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										252,
-										252
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
 			"incremental_find":
 			{
 				"height": 0.0
@@ -732,7 +241,6 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "175 157 1404 878 0 0 1920 1178 ",
 			"replace":
 			{
 				"height": 68.0
@@ -783,15 +291,1250 @@
 			"show_tabs": true,
 			"side_bar_visible": false,
 			"side_bar_width": 182.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1404.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"en",
+						"entity"
+					],
+					[
+						"selected",
+						"selectedEntities"
+					],
+					[
+						"trig",
+						"triggerElement"
+					],
+					[
+						"tr",
+						"true"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
+					"settings":
+					{
+						"buffer_size": 2264,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/0.3.3/webBones.dev.js",
+					"settings":
+					{
+						"buffer_size": 738905,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/Documents/Notes/ScopeWatcher",
+					"settings":
+					{
+						"buffer_size": 920,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 80 files for \"onExternalSelect\"\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js:\n   24      function link(scope, element) {\n   25  \n   26:         function onExternalSelect(externalElement) {\n   27              // get key of externally selected element\n   28              var keyValue = externalElement[scope.options.key];\n   ..\n   48  \n   49          // add event handlers for external changes\n   50:         treeChannel.onExternalSelection(scope, onExternalSelect);\n   51          treeChannel.onReset(scope, onResetHandler);\n   52      }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js:\n   94  \n   95      // react to tree event broadcasts\n   96:     function onExternalSelectHandler(element) {\n   97          var externalSelection = $scope.matchEntity(element);\n   98          if (typeof externalSelection !== 'undefined') {\n   ..\n  100          }\n  101      }\n  102:     $scope.onExternalSelectHandler = onExternalSelectHandler;\n  103:     treeChannel.onExternalSelection($scope, $scope.onExternalSelectHandler);\n  104  \n  105      function onResetHandler() {\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js:\n   89       * @param {function} handler    Callback to call when the event is broadcast.\n   90       */\n   91:     function onExternalSelection($scope, handler) {\n   92          $scope.$on(TREERENDER_CHANNEL_EXTERNAL_SELECTION, function(event, element) {\n   93              handler(element);\n   ..\n  101          'onReset': onReset,\n  102          'externalSelection': externalSelection,\n  103:         'onExternalSelection': onExternalSelection\n  104      };\n  105  }\n\n11 matches across 3 files\n\n\nSearching 80 files for \"selection\"\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js:\n   26       * @type {string}\n   27       */\n   28:     var BREADCRUMB_CHANNEL_SELECTION = '__Breadcrumb_Channel_Selection__',\n   29          BREADCRUMB_CHANNEL_UPDATE = '__Breadcrumb_Channel_Update__';\n   30  \n   31      /**\n   32:      * Broadcast a selection event.\n   33       *\n   34       * @since 0.1.0\n   35       * @param {object} element      AngularJS object representing the selected element\n   36       */\n   37:     function selection(element) {\n   38:         $rootScope.$broadcast(BREADCRUMB_CHANNEL_SELECTION, element);\n   39      }\n   40  \n   ..\n   50  \n   51      /**\n   52:      * Listen for the selection event.\n   53       *\n   54       * @since 0.1.0\n   ..\n   56       * @param {function} handler    Callback to call when the event is broadcast.\n   57       */\n   58:     function onSelection($scope, handler) {\n   59:         $scope.$on(BREADCRUMB_CHANNEL_SELECTION, function(event, element) {\n   60              handler(element);\n   61          });\n   ..\n   76  \n   77      return {\n   78:         'selection': selection,\n   79          'update': update,\n   80:         'onSelection': onSelection,\n   81          'onUpdate': onUpdate\n   82      };\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js:\n   27       */\n   28      function elementSelected(element) {\n   29:         breadcrumbChannel.selection(element);\n   30      }\n   31  \n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js:\n   48  \n   49          // add event handlers for external changes\n   50:         treeChannel.onExternalSelection(scope, onExternalSelect);\n   51          treeChannel.onReset(scope, onResetHandler);\n   52      }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerTemplate.html:\n    3      data-label=\"options.label\"\n    4      data-key=\"options.key\"\n    5:     data-selection=\"selection\"\n    6      data-parentid=\"\"></ul>\n    7  \n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js:\n   28  \n   29          //broadcast the updated entities list\n   30:         treeChannel.selection($scope.selectedEntities);\n   31      }\n   32      $scope.updateEntities = updateEntities;\n   33  \n   34:     function selection(e, element) {\n   35:         var selectionArray = $scope.matchEntity(element);\n   36:         if (typeof selectionArray !== 'undefined') {\n   37:             $scope.updateEntities(selectionArray);\n   38          }\n   39      }\n   40:     $scope.selection = selection;\n   41  \n   42      function matchEntity(entity) {\n   ..\n   95      // react to tree event broadcasts\n   96      function onExternalSelectHandler(element) {\n   97:         var externalSelection = $scope.matchEntity(element);\n   98:         if (typeof externalSelection !== 'undefined') {\n   99:             $scope.updateEntities(externalSelection);\n  100          }\n  101      }\n  102      $scope.onExternalSelectHandler = onExternalSelectHandler;\n  103:     treeChannel.onExternalSelection($scope, $scope.onExternalSelectHandler);\n  104  \n  105      function onResetHandler() {\n  ...\n  108  \n  109          //broadcast the updated entities list\n  110:         treeChannel.selection($scope.selectedEntities);\n  111      }\n  112      $scope.onResetHandler = onResetHandler;\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeNodeTemplate.html:\n   17              data-label=\"label\"\n   18              data-key=\"key\"\n   19:             data-selection=\"selection\"\n   20              data-parentid=\"child[key]\"></ul>\n   21      </li>\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js:\n   25       * @type {string}\n   26       */\n   27:     var TREERENDER_CHANNEL_SELECTION = '__TreeRender_Channel_Selection__',\n   28          TREERENDER_CHANNEL_RESET = '__TreeRender_Channel_Reset__',\n   29:         TREERENDER_CHANNEL_EXTERNAL_SELECTION = '__TreeRender_Channel_External_Selection__';\n   30  \n   31      /**\n   32:      * Broadcast a selection event.\n   33       *\n   34       * @since 0.1.0\n   35       * @param {array} elements      An array of AngularJS objects representing the selected elements\n   36       */\n   37:     function selection(elements) {\n   38:         $rootScope.$broadcast(TREERENDER_CHANNEL_SELECTION, elements);\n   39      }\n   40  \n   ..\n   49  \n   50      /**\n   51:      * Listen for the selection event.\n   52       *\n   53       * @since 0.1.0\n   ..\n   55       * @param {function} handler    Callback to call when the event is broadcast.\n   56       */\n   57:     function onSelection($scope, handler) {\n   58:         $scope.$on(TREERENDER_CHANNEL_SELECTION, function(event, elements) {\n   59              handler(elements);\n   60          });\n   ..\n   73  \n   74      /**\n   75:      * Broadcast an external selection event.\n   76       *\n   77       * @since 0.2.0\n   78       * @param {object} element      An AngularJS object representing the selected element\n   79       */\n   80:     function externalSelection(element) {\n   81:         $rootScope.$broadcast(TREERENDER_CHANNEL_EXTERNAL_SELECTION, element);\n   82      }\n   83  \n   84      /**\n   85:      * Listener for an external selection event.\n   86       *\n   87       * @since 0.2.0\n   ..\n   89       * @param {function} handler    Callback to call when the event is broadcast.\n   90       */\n   91:     function onExternalSelection($scope, handler) {\n   92:         $scope.$on(TREERENDER_CHANNEL_EXTERNAL_SELECTION, function(event, element) {\n   93              handler(element);\n   94          });\n   ..\n   96  \n   97      return {\n   98:         'selection': selection,\n   99          'reset': reset,\n  100:         'onSelection': onSelection,\n  101          'onReset': onReset,\n  102:         'externalSelection': externalSelection,\n  103:         'onExternalSelection': onExternalSelection\n  104      };\n  105  }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderDirective.js:\n   38                  e.stopPropagation();\n   39                  $timeout(function() {\n   40:                     scope.selection(e, scope.entity);\n   41                      scope.$apply();\n   42                  });\n   ..\n   59              'key': '=',\n   60              'parentid': '=',\n   61:             'selection': '='\n   62          },\n   63          'template': treeNodeTemplate,\n\n56 matches across 8 files\n\n\nSearching 80 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n0 matches across 0 files\n\n\nSearching 99232 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n\n\nSearching 99232 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js:\n  116      });\n  117  \n  118:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  119          if (item.kind_name === 'Folder') {\n  120              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00001/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00002/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00003/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00004/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.4.0.00003/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n6 matches across 6 files\n",
+					"settings":
+					{
+						"buffer_size": 10556,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js",
+					"settings":
+					{
+						"buffer_size": 6359,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "   // `activate` the DOM element\n            // selectedElement.reset();\n            // selectedElement.collapse('hide', triggerElement);\n            // console.log(\"trigger\");\n            // console.log(triggerElement);\n            // console.log(\"selected:\" );\n            // console.log( selectedElement);\n            // selectedElement.parent().collapse('hide');\n            // triggerElement.parent().collapse('hide');\n\n            //triggerEl=parent\n            //selectedEl=child\n            selectedElement.collapse('activate',triggerElement);\n            // selectedElement.collapse('show',triggerElement);\n\n            selectedElement.on('shown.wdesk.collapse', function(e){ console.log (\"selectedEl Shown\"); console.log(e.text()); });\n            selectedElement.on('show.wdesk.collapse', function(e){ console.log (\"selectedEl Show\"); console.log(e.text()); });\n\n            triggerElement.on('shown.wdesk.collapse', function(e){ console.log (\"triggerEl Shown\"); console.log(e.text()); });\n            triggerElement.on('show.wdesk.collapse', function(e){ console.log (\"triggerEl Show\"); console.log(e.text()); });\n            // triggerElement.on('hide.wdesk.collapse', function(e){ console.log (\"triggerEl Hide\"); console.log(e); });\n            // triggerElement.on('hidden.wdesk.collapse', function(e){ console.log (\"triggerEl Hidden\"); console.log(e); });\n            // triggerElement.collapse({toggle: true, activate: true });\n            // selectedElement.collapse({toggle:true, activate:true, parent: triggerElement});            \n            // console.log(\"yay2!\");\n        }\n\n        function onResetHandler() {\n            conosle.log(\"reset handler claled\");\n            var activeElementContainer = element.find('li.active');\n            var openHitareas = element.find('.hitarea.open');\n            var openContainers = element.find('.nav-list.in');\n            // deactivate the active element\n            activeElementContainer.removeClass('active');\n            // reset the indicators on open hitareas\n            openHitareas.removeClass('open').addClass('collapsed');\n            // collapse any open nodes\n            openContainers.collapse('hide');\n            openContainers.on('hide.wdesk.collapse', function(e){ console.log (\"openContainers Hide\"); console.log(e.text()); });\n            openContainers.on('hidden.wdesk.collapse', function(e){ console.log (\"openContainers Hidden\"); console.log(e.text()); });           \n        }\n\n        // add event handlers for external changes\n        treeChannel.onExternalSelection(scope, onExternalSelect);\n        treeChannel.onReset(scope, onResetHandler);",
+					"settings":
+					{
+						"buffer_size": 2640,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
+					"settings":
+					{
+						"buffer_size": 736,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js",
+					"settings":
+					{
+						"buffer_size": 3081,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
+					"settings":
+					{
+						"buffer_size": 25447,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
+					"settings":
+					{
+						"buffer_size": 4470,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/Documents/Notes/TreeRenderer.html",
+					"settings":
+					{
+						"buffer_size": 978,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "NG-CLASS",
+					"settings":
+					{
+						"buffer_size": 8,
+						"line_ending": "Unix",
+						"name": "NG-CLASS"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js",
+					"settings":
+					{
+						"buffer_size": 3465,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js",
+					"settings":
+					{
+						"buffer_size": 967,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js",
+					"settings":
+					{
+						"buffer_size": 2387,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"reind",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"ke",
+						"Keymaps: Cheat Sheet"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"ind",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
+					[
+						"settings",
+						"Preferences: Settings - Default"
+					],
+					[
+						"user",
+						"Preferences: Settings - User"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"set shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"KEY",
+						"FindKeyConflicts: All Conflicts"
+					],
+					[
+						"SETTINGS",
+						"Preferences: Settings - User"
+					],
+					[
+						"INSTA",
+						"Package Control: Install Package"
+					],
+					[
+						"keyma",
+						"Keymaps: Cheat Sheet"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"cold",
+						"Code Folding: Fold Tag Attributes"
+					],
+					[
+						"pre",
+						"Preferences: Settings - User"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"settings us",
+						"Preferences: Settings - User"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbTemplate.html",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/346c51430c62c0d5b22aa5438ba3e2a4a356000c/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/datacollection/out/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/dist/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/node_modules/RichApps/examples/config.yml",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/node_modules/bower/node_modules/bower-config/.editorconfig",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
+				"/Users/michaelclark/workspaces/configs/ST2/Projects/WebFilings.sublime-project",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/settingslocal.py",
+				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
+				"/Users/michaelclark/workspaces/.zshrc",
+				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/michaelclark/workspaces/wf/z_bigsky/build-user.properties",
+				"/Users/michaelclark/.oh-my-zsh/lib/theme-and-appearance.zsh",
+				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh.bak",
+				"/Users/michaelclark/.oh-my-zsh/lib/original_aliases.zsh",
+				"/Users/michaelclark/workspaces/config/git_config.sh",
+				"/Users/michaelclark/workspaces/config/git_config_example.conf",
+				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.sh",
+				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.1",
+				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/michaelclark/Documents/OneLoginNotes.txt",
+				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Vintage/Default (Linux).sublime-keymap",
+				"/Users/michaelclark/workspace/config/aliases.zsh"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/Users/michaelclark/workspaces/wf/",
+					"/Users/michaelclark/workspaces/wf/web-bones/src",
+					"/Users/michaelclark/workspaces/wf/web-bones/src/components",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"infiniteScrollerChannel.onItemSelect($scope, function(item) {",
+					"selection",
+					"onExternalSelect",
+					"data-toggle=\"collapse\">",
+					"class=\"hitarea ng-binding open\" data-activate=\"true\" ",
+					"data-selection=\"selection\" data-parentid=\"child[key]\" style=\"height: auto;\"",
+					"<!-- ngRepeat: child in entity.children -->",
+					"data-ng-repeat=\"child in entity.children\" data-ng-class=\"{'nav-group': child.children.length}\" class=\"ng-scope nav-group active\"",
+					" class=\"hitarea ng-binding open\" data-activate=\"true\" data-target=\"#Folder_2\" data-toggle=\"collapse\"",
+					"class=\"nav nav-list in\" data-tree-render=\"\" data-entity=\"child\" data-label=\"label\" data-key=\"key\"",
+					"data-ng-repeat=\"child in entity.children\" data-ng-class=\"{'nav-group': child.children.length}\" class=\"ng-scope nav-group\">",
+					"data-ng-repeat=\"child in entity.children\" data-ng-class=\"{'nav-group': child.children.length}\" class=\"ng-scope\">  ",
+					"class=\"nav nav-list collapse\" data-tree-render=\"\" data-entity=\"child\" data-label=\"label\" data-key=\"key\" data-selection=\"selection\" data-parentid=\"child[key]\">",
+					"<span class='caret hide' activate=false angular='{show: child.children.length}'/>",
+					" class=\"hitarea collapsed ng-binding\" data-activate=\"true\" ",
+					"<span class=\"caret hide\" data-activate=\"false\" data-ng-class=\"{'show': child.children.length}\"></span>",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjoyYjA4ZGVhMWY1OTQ0ZDJhYTQ0MzcwYjI4OTE1NTE1ZA",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjo0OTY1YTExNmU5ZTE0MDNmYjFiYWZjMGI1Y2IyNTRkYw",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjphMDkxNTgxZmVlYzE0YmNiOGMwZTBlNjk3ZGE4OTIzYw",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjo4OGJkYzIwODhmMTM0MjYwOTQ1OGMyMDc4ZDEyZTNhOQ",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjo5YjQyNGE3MjFlYzQ0MTMzODNiOTYzNzMxYTFkYjE3OA",
+					"V0ZEYXRhRW50aXR5HkZvbGRlcjo1ZjBjZDZiNzBlMjI0NmVjOGVmMWJhNGY5N2YxOTE0Nw",
+					"QWNjb3VudB8z",
+					"btn_QWNjb3VudB8z",
+					"<!-- ngRepeat: child in entity.children -->",
+					"treeContainer",
+					"treeChannel",
+					"reset",
+					".reset(",
+					".reset()",
+					"reset",
+					"selectedElement.collapse('",
+					"treeChannel",
+					"broadcast",
+					"git+ss",
+					"mvn",
+					"10fa4068",
+					"pip",
+					"up",
+					"end",
+					"ctrl",
+					"CTRL SHIFT UP",
+					"MOVE",
+					"spaces",
+					"bradybecker",
+					"git",
+					"zc=",
+					"open",
+					"FOLD",
+					"new",
+					"OS"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					">",
+					"",
+					">",
+					"",
+					"<span class='caret hide' activate=false angular='{show: child.children.length}'/>",
+					"NewFolder_2",
+					"NewFolder_1",
+					"Folder_4",
+					"Folder_3",
+					"Folder_2",
+					"NewFolder",
+					"WebFilings",
+					"btn_WebFilings",
+					"<!-- ngRepeat: child in entity.children -->\\n",
+					"michaelclark"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
+							"settings":
+							{
+								"buffer_size": 2264,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1975,
+										1975
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 271.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/0.3.3/webBones.dev.js",
+							"settings":
+							{
+								"buffer_size": 738905,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										639700,
+										638780
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 358531.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/michaelclark/Documents/Notes/ScopeWatcher",
+							"settings":
+							{
+								"buffer_size": 920,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										920,
+										920
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"settings":
+							{
+								"buffer_size": 10556,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												215,
+												231
+											],
+											[
+												481,
+												497
+											],
+											[
+												508,
+												524
+											],
+											[
+												762,
+												778
+											],
+											[
+												982,
+												998
+											],
+											[
+												1008,
+												1024
+											],
+											[
+												1056,
+												1072
+											],
+											[
+												1091,
+												1107
+											],
+											[
+												1381,
+												1397
+											],
+											[
+												1661,
+												1677
+											],
+											[
+												1683,
+												1699
+											],
+											[
+												1961,
+												1970
+											],
+											[
+												1995,
+												2004
+											],
+											[
+												2134,
+												2143
+											],
+											[
+												2321,
+												2330
+											],
+											[
+												2398,
+												2407
+											],
+											[
+												2498,
+												2507
+											],
+											[
+												2688,
+												2697
+											],
+											[
+												2762,
+												2771
+											],
+											[
+												2906,
+												2915
+											],
+											[
+												2918,
+												2927
+											],
+											[
+												2980,
+												2989
+											],
+											[
+												2994,
+												3003
+											],
+											[
+												3246,
+												3255
+											],
+											[
+												3488,
+												3497
+											],
+											[
+												3783,
+												3792
+											],
+											[
+												3794,
+												3803
+											],
+											[
+												4025,
+												4034
+											],
+											[
+												4153,
+												4162
+											],
+											[
+												4196,
+												4205
+											],
+											[
+												4268,
+												4277
+											],
+											[
+												4343,
+												4352
+											],
+											[
+												4408,
+												4417
+											],
+											[
+												4420,
+												4429
+											],
+											[
+												4614,
+												4623
+											],
+											[
+												4689,
+												4698
+											],
+											[
+												4767,
+												4776
+											],
+											[
+												4911,
+												4920
+											],
+											[
+												5103,
+												5112
+											],
+											[
+												5393,
+												5402
+											],
+											[
+												5404,
+												5413
+											],
+											[
+												5655,
+												5664
+											],
+											[
+												5689,
+												5698
+											],
+											[
+												5820,
+												5829
+											],
+											[
+												5863,
+												5872
+											],
+											[
+												5926,
+												5935
+											],
+											[
+												6127,
+												6136
+											],
+											[
+												6205,
+												6214
+											],
+											[
+												6306,
+												6315
+											],
+											[
+												6496,
+												6505
+											],
+											[
+												6570,
+												6579
+											],
+											[
+												6731,
+												6740
+											],
+											[
+												6929,
+												6938
+											],
+											[
+												7015,
+												7024
+											],
+											[
+												7111,
+												7120
+											],
+											[
+												7309,
+												7318
+											],
+											[
+												7392,
+												7401
+											],
+											[
+												7536,
+												7545
+											],
+											[
+												7548,
+												7557
+											],
+											[
+												7608,
+												7617
+											],
+											[
+												7622,
+												7631
+											],
+											[
+												7692,
+												7701
+											],
+											[
+												7712,
+												7721
+											],
+											[
+												7749,
+												7758
+											],
+											[
+												7771,
+												7780
+											],
+											[
+												8021,
+												8030
+											],
+											[
+												8212,
+												8221
+											],
+											[
+												8748,
+												8809
+											],
+											[
+												9065,
+												9126
+											],
+											[
+												9382,
+												9443
+											],
+											[
+												9699,
+												9760
+											],
+											[
+												10016,
+												10077
+											],
+											[
+												10333,
+												10394
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										8785,
+										8785
+									]
+								],
+								"settings":
+								{
+									"detect_indentation": false,
+									"output_tag": 5,
+									"result_base_dir": "",
+									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 4633.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js",
+							"settings":
+							{
+								"buffer_size": 6359,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5590,
+										5590
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2209.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"settings":
+							{
+								"buffer_size": 2640,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										455,
+										455
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 55.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
+							"settings":
+							{
+								"buffer_size": 736,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										736,
+										736
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js",
+							"settings":
+							{
+								"buffer_size": 3081,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										986,
+										995
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 14.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
+							"settings":
+							{
+								"buffer_size": 25447,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6376,
+										6381
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3300.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
+							"settings":
+							{
+								"buffer_size": 4470,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3945,
+										3698
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1350.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 10,
+							"file": "/Users/michaelclark/Documents/Notes/TreeRenderer.html",
+							"settings":
+							{
+								"buffer_size": 978,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										277,
+										277
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"settings":
+							{
+								"buffer_size": 8,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8,
+										8
+									]
+								],
+								"settings":
+								{
+									"auto_name": "NG-CLASS",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js",
+							"settings":
+							{
+								"buffer_size": 3465,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										453,
+										453
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 135.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js",
+							"settings":
+							{
+								"buffer_size": 967,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js",
+							"settings":
+							{
+								"buffer_size": 2387,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1756,
+										1756
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 357.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.539876497006,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "100 32 1404 878 0 0 1920 1178 ",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"webbones.dev.js",
+						"BigSky/static/webBones/0.3.3/webBones.dev.js"
+					],
+					[
+						"flex/modules/aboutmodule/pom.xml",
+						"BigSky/flex/modules/AboutModule/pom.xml"
+					],
+					[
+						"flex/",
+						"BigSky/flex/pom.xml"
+					],
+					[
+						"0.3.3/",
+						"BigSky/static/webBones/0.3.3/webBones.dev.js"
+					],
+					[
+						"/static/webbones/346c",
+						"BigSky/static/webBones/346c51430c62c0d5b22aa5438ba3e2a4a356000c/webBones.dev.js"
+					],
+					[
+						"apps/home/",
+						"BigSky/apps/home/config.yml"
+					],
+					[
+						"home/config/",
+						"BigSky Home/node_modules/bower/node_modules/bower-config/.editorconfig"
+					],
+					[
+						"richapps/config.yml",
+						"BigSky/node_modules/RichApps/examples/config.yml"
+					],
+					[
+						"ocal",
+						"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/settingslocal.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 250.0,
 			"status_bar_visible": true,
-			"window_id": 15,
-			"workspace_name": "/Users/michaelclark/workspaces/configs/Projects/WebFilings.sublime-project"
+			"window_id": 20,
+			"workspace_name": "/Users/michaelclark/workspaces/configs/ST2/Projects/WebFilings.sublime-project"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/Users/michaelclark/workspaces/configs/ST2/Projects/WebFilings.sublime-project",
 			"/Users/michaelclark/workspaces/configs/Projects/WebFilings.sublime-project"
 		]
 	}

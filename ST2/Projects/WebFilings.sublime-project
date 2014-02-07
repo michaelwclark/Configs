@@ -1,46 +1,21 @@
 {
-     "folders": [
-          {
-               "name": "BigSky",
-               "path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },  
-          {
-               "name": "Apps",
-               "path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/lib",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },
-          {
-               "name": "Admin",
-               "path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/admin",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },
-          {
-               "name": "Externals",
-               "path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/Externals",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },   
-          {
-               "name": "BigSky Home",
-               "path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },   
-          {
-               "name": "Web-Bones",
-               "path": "/Users/michaelclark/workspaces/wf/web-bones",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          },       
-          {
-               "name": "Developer Scripts",
-               "path": "/Users/michaelclark/workspaces/wf/developer-scripts/",
-               "folder_exclude":[".*"],
-               "file_exclude":["*.pyc|gif|jpg|jpeg"]
-          }
-     ]
+	"folders":
+	[
+		{
+			"name": "BigSky",
+			"path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky"
+		},
+		{
+			"name": "BigSky Home",
+			"path": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home"
+		},
+		{
+			"name": "Web-Bones",
+			"path": "/Users/michaelclark/workspaces/wf/web-bones"
+		},
+		{
+			"name": "Developer Scripts",
+			"path": "/Users/michaelclark/workspaces/wf/developer-scripts"
+		}
+	]
 }
