@@ -303,88 +303,78 @@
 				"selected_items":
 				[
 					[
+						"onE",
+						"onExternalSelect"
+					],
+					[
+						"se",
+						"selection"
+					],
+					[
+						"parent",
+						"parentElement"
+					],
+					[
+						"ext",
+						"externalSelection"
+					],
+					[
+						"paren",
+						"parentElement"
+					],
+					[
+						"tree",
+						"treeChannel"
+					],
+					[
+						"tr",
+						"treeChannel"
+					],
+					[
+						"ex",
+						"externalSelection"
+					],
+					[
+						"trigger",
+						"triggerElement"
+					],
+					[
+						"selected",
+						"selectedElement"
+					],
+					[
+						"extern",
+						"externalElement"
+					],
+					[
+						"entit",
+						"entityTree"
+					],
+					[
 						"en",
 						"entity"
 					],
 					[
-						"selected",
-						"selectedEntities"
-					],
-					[
 						"trig",
 						"triggerElement"
-					],
-					[
-						"tr",
-						"true"
 					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/pom.xml",
 					"settings":
 					{
-						"buffer_size": 2264,
+						"buffer_size": 943,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/0.3.3/webBones.dev.js",
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/pom.xml",
 					"settings":
 					{
-						"buffer_size": 738905,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/Documents/Notes/ScopeWatcher",
-					"settings":
-					{
-						"buffer_size": 920,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "Searching 80 files for \"onExternalSelect\"\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js:\n   24      function link(scope, element) {\n   25  \n   26:         function onExternalSelect(externalElement) {\n   27              // get key of externally selected element\n   28              var keyValue = externalElement[scope.options.key];\n   ..\n   48  \n   49          // add event handlers for external changes\n   50:         treeChannel.onExternalSelection(scope, onExternalSelect);\n   51          treeChannel.onReset(scope, onResetHandler);\n   52      }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js:\n   94  \n   95      // react to tree event broadcasts\n   96:     function onExternalSelectHandler(element) {\n   97          var externalSelection = $scope.matchEntity(element);\n   98          if (typeof externalSelection !== 'undefined') {\n   ..\n  100          }\n  101      }\n  102:     $scope.onExternalSelectHandler = onExternalSelectHandler;\n  103:     treeChannel.onExternalSelection($scope, $scope.onExternalSelectHandler);\n  104  \n  105      function onResetHandler() {\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js:\n   89       * @param {function} handler    Callback to call when the event is broadcast.\n   90       */\n   91:     function onExternalSelection($scope, handler) {\n   92          $scope.$on(TREERENDER_CHANNEL_EXTERNAL_SELECTION, function(event, element) {\n   93              handler(element);\n   ..\n  101          'onReset': onReset,\n  102          'externalSelection': externalSelection,\n  103:         'onExternalSelection': onExternalSelection\n  104      };\n  105  }\n\n11 matches across 3 files\n\n\nSearching 80 files for \"selection\"\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js:\n   26       * @type {string}\n   27       */\n   28:     var BREADCRUMB_CHANNEL_SELECTION = '__Breadcrumb_Channel_Selection__',\n   29          BREADCRUMB_CHANNEL_UPDATE = '__Breadcrumb_Channel_Update__';\n   30  \n   31      /**\n   32:      * Broadcast a selection event.\n   33       *\n   34       * @since 0.1.0\n   35       * @param {object} element      AngularJS object representing the selected element\n   36       */\n   37:     function selection(element) {\n   38:         $rootScope.$broadcast(BREADCRUMB_CHANNEL_SELECTION, element);\n   39      }\n   40  \n   ..\n   50  \n   51      /**\n   52:      * Listen for the selection event.\n   53       *\n   54       * @since 0.1.0\n   ..\n   56       * @param {function} handler    Callback to call when the event is broadcast.\n   57       */\n   58:     function onSelection($scope, handler) {\n   59:         $scope.$on(BREADCRUMB_CHANNEL_SELECTION, function(event, element) {\n   60              handler(element);\n   61          });\n   ..\n   76  \n   77      return {\n   78:         'selection': selection,\n   79          'update': update,\n   80:         'onSelection': onSelection,\n   81          'onUpdate': onUpdate\n   82      };\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js:\n   27       */\n   28      function elementSelected(element) {\n   29:         breadcrumbChannel.selection(element);\n   30      }\n   31  \n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js:\n   48  \n   49          // add event handlers for external changes\n   50:         treeChannel.onExternalSelection(scope, onExternalSelect);\n   51          treeChannel.onReset(scope, onResetHandler);\n   52      }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerTemplate.html:\n    3      data-label=\"options.label\"\n    4      data-key=\"options.key\"\n    5:     data-selection=\"selection\"\n    6      data-parentid=\"\"></ul>\n    7  \n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js:\n   28  \n   29          //broadcast the updated entities list\n   30:         treeChannel.selection($scope.selectedEntities);\n   31      }\n   32      $scope.updateEntities = updateEntities;\n   33  \n   34:     function selection(e, element) {\n   35:         var selectionArray = $scope.matchEntity(element);\n   36:         if (typeof selectionArray !== 'undefined') {\n   37:             $scope.updateEntities(selectionArray);\n   38          }\n   39      }\n   40:     $scope.selection = selection;\n   41  \n   42      function matchEntity(entity) {\n   ..\n   95      // react to tree event broadcasts\n   96      function onExternalSelectHandler(element) {\n   97:         var externalSelection = $scope.matchEntity(element);\n   98:         if (typeof externalSelection !== 'undefined') {\n   99:             $scope.updateEntities(externalSelection);\n  100          }\n  101      }\n  102      $scope.onExternalSelectHandler = onExternalSelectHandler;\n  103:     treeChannel.onExternalSelection($scope, $scope.onExternalSelectHandler);\n  104  \n  105      function onResetHandler() {\n  ...\n  108  \n  109          //broadcast the updated entities list\n  110:         treeChannel.selection($scope.selectedEntities);\n  111      }\n  112      $scope.onResetHandler = onResetHandler;\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeNodeTemplate.html:\n   17              data-label=\"label\"\n   18              data-key=\"key\"\n   19:             data-selection=\"selection\"\n   20              data-parentid=\"child[key]\"></ul>\n   21      </li>\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js:\n   25       * @type {string}\n   26       */\n   27:     var TREERENDER_CHANNEL_SELECTION = '__TreeRender_Channel_Selection__',\n   28          TREERENDER_CHANNEL_RESET = '__TreeRender_Channel_Reset__',\n   29:         TREERENDER_CHANNEL_EXTERNAL_SELECTION = '__TreeRender_Channel_External_Selection__';\n   30  \n   31      /**\n   32:      * Broadcast a selection event.\n   33       *\n   34       * @since 0.1.0\n   35       * @param {array} elements      An array of AngularJS objects representing the selected elements\n   36       */\n   37:     function selection(elements) {\n   38:         $rootScope.$broadcast(TREERENDER_CHANNEL_SELECTION, elements);\n   39      }\n   40  \n   ..\n   49  \n   50      /**\n   51:      * Listen for the selection event.\n   52       *\n   53       * @since 0.1.0\n   ..\n   55       * @param {function} handler    Callback to call when the event is broadcast.\n   56       */\n   57:     function onSelection($scope, handler) {\n   58:         $scope.$on(TREERENDER_CHANNEL_SELECTION, function(event, elements) {\n   59              handler(elements);\n   60          });\n   ..\n   73  \n   74      /**\n   75:      * Broadcast an external selection event.\n   76       *\n   77       * @since 0.2.0\n   78       * @param {object} element      An AngularJS object representing the selected element\n   79       */\n   80:     function externalSelection(element) {\n   81:         $rootScope.$broadcast(TREERENDER_CHANNEL_EXTERNAL_SELECTION, element);\n   82      }\n   83  \n   84      /**\n   85:      * Listener for an external selection event.\n   86       *\n   87       * @since 0.2.0\n   ..\n   89       * @param {function} handler    Callback to call when the event is broadcast.\n   90       */\n   91:     function onExternalSelection($scope, handler) {\n   92:         $scope.$on(TREERENDER_CHANNEL_EXTERNAL_SELECTION, function(event, element) {\n   93              handler(element);\n   94          });\n   ..\n   96  \n   97      return {\n   98:         'selection': selection,\n   99          'reset': reset,\n  100:         'onSelection': onSelection,\n  101          'onReset': onReset,\n  102:         'externalSelection': externalSelection,\n  103:         'onExternalSelection': onExternalSelection\n  104      };\n  105  }\n\n/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderDirective.js:\n   38                  e.stopPropagation();\n   39                  $timeout(function() {\n   40:                     scope.selection(e, scope.entity);\n   41                      scope.$apply();\n   42                  });\n   ..\n   59              'key': '=',\n   60              'parentid': '=',\n   61:             'selection': '='\n   62          },\n   63          'template': treeNodeTemplate,\n\n56 matches across 8 files\n\n\nSearching 80 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n0 matches across 0 files\n\n\nSearching 99232 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n\n\nSearching 99232 files for \"infiniteScrollerChannel.onItemSelect($scope, function(item) {\"\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js:\n  116      });\n  117  \n  118:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  119          if (item.kind_name === 'Folder') {\n  120              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00001/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00002/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00003/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.3.0.00004/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/home/0.4.0.00003/js/app.js:\n  686      });\n  687  \n  688:     infiniteScrollerChannel.onItemSelect($scope, function(item) {\n  689          if (item.kind_name === 'Folder') {\n  690              treeChannel.externalSelection({'resource_id': item.resource_id});\n\n6 matches across 6 files\n",
-					"settings":
-					{
-						"buffer_size": 10556,
-						"line_ending": "Unix",
-						"name": "Find Results",
-						"scratch": true
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js",
-					"settings":
-					{
-						"buffer_size": 6359,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "   // `activate` the DOM element\n            // selectedElement.reset();\n            // selectedElement.collapse('hide', triggerElement);\n            // console.log(\"trigger\");\n            // console.log(triggerElement);\n            // console.log(\"selected:\" );\n            // console.log( selectedElement);\n            // selectedElement.parent().collapse('hide');\n            // triggerElement.parent().collapse('hide');\n\n            //triggerEl=parent\n            //selectedEl=child\n            selectedElement.collapse('activate',triggerElement);\n            // selectedElement.collapse('show',triggerElement);\n\n            selectedElement.on('shown.wdesk.collapse', function(e){ console.log (\"selectedEl Shown\"); console.log(e.text()); });\n            selectedElement.on('show.wdesk.collapse', function(e){ console.log (\"selectedEl Show\"); console.log(e.text()); });\n\n            triggerElement.on('shown.wdesk.collapse', function(e){ console.log (\"triggerEl Shown\"); console.log(e.text()); });\n            triggerElement.on('show.wdesk.collapse', function(e){ console.log (\"triggerEl Show\"); console.log(e.text()); });\n            // triggerElement.on('hide.wdesk.collapse', function(e){ console.log (\"triggerEl Hide\"); console.log(e); });\n            // triggerElement.on('hidden.wdesk.collapse', function(e){ console.log (\"triggerEl Hidden\"); console.log(e); });\n            // triggerElement.collapse({toggle: true, activate: true });\n            // selectedElement.collapse({toggle:true, activate:true, parent: triggerElement});            \n            // console.log(\"yay2!\");\n        }\n\n        function onResetHandler() {\n            conosle.log(\"reset handler claled\");\n            var activeElementContainer = element.find('li.active');\n            var openHitareas = element.find('.hitarea.open');\n            var openContainers = element.find('.nav-list.in');\n            // deactivate the active element\n            activeElementContainer.removeClass('active');\n            // reset the indicators on open hitareas\n            openHitareas.removeClass('open').addClass('collapsed');\n            // collapse any open nodes\n            openContainers.collapse('hide');\n            openContainers.on('hide.wdesk.collapse', function(e){ console.log (\"openContainers Hide\"); console.log(e.text()); });\n            openContainers.on('hidden.wdesk.collapse', function(e){ console.log (\"openContainers Hidden\"); console.log(e.text()); });           \n        }\n\n        // add event handlers for external changes\n        treeChannel.onExternalSelection(scope, onExternalSelect);\n        treeChannel.onReset(scope, onResetHandler);",
-					"settings":
-					{
-						"buffer_size": 2640,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
-					"settings":
-					{
-						"buffer_size": 736,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js",
-					"settings":
-					{
-						"buffer_size": 3081,
+						"buffer_size": 5172,
 						"line_ending": "Unix"
 					}
 				},
@@ -392,66 +382,169 @@
 					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
 					"settings":
 					{
-						"buffer_size": 25447,
+						"buffer_size": 25938,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
 					"settings":
 					{
-						"buffer_size": 4470,
+						"buffer_size": 2527,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/michaelclark/Documents/Notes/TreeRenderer.html",
+					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderDirective.js",
 					"settings":
 					{
-						"buffer_size": 978,
+						"buffer_size": 3264,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "NG-CLASS",
+					"file": "/Library/Developer/CommandLineTools/usr/libexec/git-core/git-mergetool--lib",
 					"settings":
 					{
-						"buffer_size": 8,
-						"line_ending": "Unix",
-						"name": "NG-CLASS"
-					}
-				},
-				{
-					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js",
-					"settings":
-					{
-						"buffer_size": 3465,
+						"buffer_size": 7786,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js",
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/admin-2256-wip/webBones.dev.js",
 					"settings":
 					{
-						"buffer_size": 967,
+						"buffer_size": 297597,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js",
+					"file": "/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
 					"settings":
 					{
-						"buffer_size": 2387,
+						"buffer_size": 13332,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/.git/MERGE_MSG",
+					"settings":
+					{
+						"buffer_size": 347,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/JSLint/JSLint.sublime-build",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 169.0,
 				"selected_items":
 				[
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings – User"
+					],
+					[
+						"user",
+						"Preferences: Settings - User"
+					],
+					[
+						"sho",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"show",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"sub",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Extract Annotations"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"sublimelinter",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"sublim",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"settings",
+						"Preferences: Settings - User"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"JSLint"
+					],
+					[
+						"jslin",
+						"JSLint"
+					],
+					[
+						"jsli",
+						"JSLint"
+					],
+					[
+						"jsl",
+						"JSLint"
+					],
+					[
+						"rei",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"gist",
+						"Gist: Create Private Gist"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"htm",
+						"Set Syntax: HTML"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"snip",
+						"SnippetMaker: Make Snippet"
+					],
 					[
 						"rein",
 						"Indentation: Reindent Lines"
@@ -463,10 +556,6 @@
 					[
 						"inden",
 						"Indentation: Reindent Lines"
-					],
-					[
-						"html",
-						"Set Syntax: HTML"
 					],
 					[
 						"ke",
@@ -481,24 +570,8 @@
 						"Indentation: Reindent Lines"
 					],
 					[
-						"inde",
-						"Indentation: Reindent Lines"
-					],
-					[
 						"python",
 						"Set Syntax: Python"
-					],
-					[
-						"settings",
-						"Preferences: Settings - Default"
-					],
-					[
-						"user",
-						"Preferences: Settings - User"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"shell",
@@ -525,10 +598,6 @@
 						"Keymaps: Cheat Sheet"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"insta",
 						"Package Control: Install Package"
 					],
@@ -549,11 +618,11 @@
 						"Preferences: Settings - User"
 					]
 				],
-				"width": 575.0
+				"width": 467.0
 			},
 			"console":
 			{
-				"height": 0.0
+				"height": 153.0
 			},
 			"distraction_free":
 			{
@@ -566,17 +635,56 @@
 			},
 			"file_history":
 			[
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/treeRender/treeContainerDirectiveSpec.js",
+				"/usr/bin/diffmerge.sh",
+				"/usr/bin/diffmerge",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerTemplate.html",
+				"/Users/michaelclark/workspaces/wf/web-bones/dist/webBones.dev.js",
+				"/Users/michaelclark/workspaces/configs/ST2/Packages/User/SublimeLinter.sublime-settings",
+				"/Users/michaelclark/workspaces/configs/ST2/Packages/User/Preferences.sublime-settings",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/admin-2256-wip/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderDirective.js",
+				"/Users/michaelclark/Downloads/SublimeLinter.sublime-settings",
+				"/Users/michaelclark/Documents/Notes/TreeRenderer_TestBlob.html",
+				"/Users/michaelclark/Documents/Notes/treeContainerDirectiveSpecOLDBackup.js",
+				"/Users/michaelclark/Documents/Notes/angularDirectiveUnitTestExample.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/treeRender/treeContainerDirectiveSpec_singleLine.js",
+				"/Users/michaelclark/workspaces/configs/ST2/Packages/User/Gist.sublime-settings",
+				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/documents/tests/images/test_views.py",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/pom.xml",
+				"/Users/michaelclark/Documents/OneLoginNotesBackup.txt",
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/treeRender/treeContainerElement.html",
+				"/Users/michaelclark/Documents/Notes/TreeRenderer_TestBlob_SingleLine.html",
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/treeRender/treeRenderChannelSpec.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/treeRender/treeRenderControllerSpec.js",
+				"/Users/michaelclark/Documents/Notes/TreeRenderer.html",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/test/specs/components/breadcrumb/breadcrumbDirectiveSpec.js",
+				"/Users/michaelclark/Documents/OneLoginNotes.txt",
+				"/Users/michaelclark/Documents/CARD_FRAUD_INFO.TXT",
+				"/Users/michaelclark/Documents/claimInfo.txt",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js",
+				"/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/.gitmodules",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/build.xml",
+				"/Users/michaelclark/Documents/Notes/ScopeWatcher",
+				"/Users/michaelclark/workspaces/configs/ST2/Packages/User/ght.sublime-snippet",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/0.3.3/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/datacollection/out/webBones.dev.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/Gruntfile.js",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
+				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
 				"/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbTemplate.html",
 				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/346c51430c62c0d5b22aa5438ba3e2a4a356000c/webBones.dev.js",
-				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/datacollection/out/webBones.dev.js",
-				"/Users/michaelclark/workspaces/wf/web-bones/dist/webBones.dev.js",
 				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/node_modules/RichApps/examples/config.yml",
-				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
 				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/node_modules/bower/node_modules/bower-config/.editorconfig",
-				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
 				"/Users/michaelclark/workspaces/configs/ST2/Projects/WebFilings.sublime-project",
 				"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/settingslocal.py",
-				"/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
 				"/Users/michaelclark/workspaces/.zshrc",
 				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 				"/Users/michaelclark/workspaces/wf/z_bigsky/build-user.properties",
@@ -588,7 +696,6 @@
 				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.sh",
 				"/Volumes/DiffMerge 4.2.0.697 intel stable/Extras/diffmerge.1",
 				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-				"/Users/michaelclark/Documents/OneLoginNotes.txt",
 				"/Users/michaelclark/Library/Application Support/Sublime Text 2/Packages/Vintage/Default (Linux).sublime-keymap",
 				"/Users/michaelclark/workspace/config/aliases.zsh"
 			],
@@ -601,6 +708,8 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/",
+					"/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home",
 					"/Users/michaelclark/workspaces/wf/",
 					"/Users/michaelclark/workspaces/wf/web-bones/src",
 					"/Users/michaelclark/workspaces/wf/web-bones/src/components",
@@ -612,6 +721,53 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"triggerElement\nfind the corresponding `trigger` DOM element",
+					"triggerElement\n",
+					"^\\s",
+					"treeRenderDirective",
+					"treeRender",
+					"treechannel",
+					"treeRenderInit",
+					"onReset",
+					"2256-home-external-folder-select",
+					"Codebuilders",
+					"open",
+					"id=",
+					"\\s{2,100}",
+					"\\s{2-100}",
+					"\\n",
+					"'",
+					"parentElement[0]",
+					"element1",
+					"conosle.log",
+					"active",
+					"       beforeEach(function() {\n            treeRenderNodes = $element.find('div.hitarea');\n        });\n",
+					" \n",
+					"tree",
+					"externalSelect",
+					"$watch",
+					"activate.",
+					"wdesk.activate",
+					"treeContainer",
+					"treeRender",
+					"$watch",
+					"console.log",
+					"caller",
+					"treeRender",
+					"$watch",
+					"$watcj",
+					"treeController",
+					"    $scope.selectedEntities = [];\n\n    function updateEntities(elements) {\n        // update the entity lists\n        $scope.selectedEntities = elements;\n\n        //broadcast the updated entities list\n        treeChannel.selection($scope.selectedEntities);\n    }\n    $scope.updateEntities = updateEntities;\n\n    function selection(e, element) {\n        var selectionArray = $scope.matchEntity(element);\n        if (typeof selectionArray !== 'undefined') {\n            $scope.updateEntities(selectionArray);\n        }\n    }\n    $scope.selection = selection;",
+					"selectedEntities",
+					"on",
+					"onA",
+					"Selection",
+					"treeChannel",
+					"$watch",
+					"on('activate",
+					"scope.$watch(",
+					"ExternalSelection",
+					"external_libs",
 					"infiniteScrollerChannel.onItemSelect($scope, function(item) {",
 					"selection",
 					"onExternalSelect",
@@ -667,9 +823,13 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"",
+					" ",
+					"\\'",
+					"parentElement",
 					">",
 					"",
 					">",
@@ -695,86 +855,451 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 8,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/pom.xml",
 							"settings":
 							{
-								"buffer_size": 2264,
+								"buffer_size": 943,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1975,
-										1975
+										172,
+										172
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 271.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/0.3.3/webBones.dev.js",
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/pom.xml",
 							"settings":
 							{
-								"buffer_size": 738905,
+								"buffer_size": 5172,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										639700,
-										638780
+										682,
+										618
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/XML/XML.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 358531.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/Users/michaelclark/Documents/Notes/ScopeWatcher",
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
 							"settings":
 							{
-								"buffer_size": 920,
+								"buffer_size": 25938,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										920,
-										920
+										1357,
+										1357
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/XML/XML.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -784,386 +1309,451 @@
 						},
 						{
 							"buffer": 3,
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeContainerDirective.js",
 							"settings":
 							{
-								"buffer_size": 10556,
+								"buffer_size": 2527,
 								"regions":
 								{
-									"match":
-									{
-										"flags": 112,
-										"regions":
-										[
-											[
-												215,
-												231
-											],
-											[
-												481,
-												497
-											],
-											[
-												508,
-												524
-											],
-											[
-												762,
-												778
-											],
-											[
-												982,
-												998
-											],
-											[
-												1008,
-												1024
-											],
-											[
-												1056,
-												1072
-											],
-											[
-												1091,
-												1107
-											],
-											[
-												1381,
-												1397
-											],
-											[
-												1661,
-												1677
-											],
-											[
-												1683,
-												1699
-											],
-											[
-												1961,
-												1970
-											],
-											[
-												1995,
-												2004
-											],
-											[
-												2134,
-												2143
-											],
-											[
-												2321,
-												2330
-											],
-											[
-												2398,
-												2407
-											],
-											[
-												2498,
-												2507
-											],
-											[
-												2688,
-												2697
-											],
-											[
-												2762,
-												2771
-											],
-											[
-												2906,
-												2915
-											],
-											[
-												2918,
-												2927
-											],
-											[
-												2980,
-												2989
-											],
-											[
-												2994,
-												3003
-											],
-											[
-												3246,
-												3255
-											],
-											[
-												3488,
-												3497
-											],
-											[
-												3783,
-												3792
-											],
-											[
-												3794,
-												3803
-											],
-											[
-												4025,
-												4034
-											],
-											[
-												4153,
-												4162
-											],
-											[
-												4196,
-												4205
-											],
-											[
-												4268,
-												4277
-											],
-											[
-												4343,
-												4352
-											],
-											[
-												4408,
-												4417
-											],
-											[
-												4420,
-												4429
-											],
-											[
-												4614,
-												4623
-											],
-											[
-												4689,
-												4698
-											],
-											[
-												4767,
-												4776
-											],
-											[
-												4911,
-												4920
-											],
-											[
-												5103,
-												5112
-											],
-											[
-												5393,
-												5402
-											],
-											[
-												5404,
-												5413
-											],
-											[
-												5655,
-												5664
-											],
-											[
-												5689,
-												5698
-											],
-											[
-												5820,
-												5829
-											],
-											[
-												5863,
-												5872
-											],
-											[
-												5926,
-												5935
-											],
-											[
-												6127,
-												6136
-											],
-											[
-												6205,
-												6214
-											],
-											[
-												6306,
-												6315
-											],
-											[
-												6496,
-												6505
-											],
-											[
-												6570,
-												6579
-											],
-											[
-												6731,
-												6740
-											],
-											[
-												6929,
-												6938
-											],
-											[
-												7015,
-												7024
-											],
-											[
-												7111,
-												7120
-											],
-											[
-												7309,
-												7318
-											],
-											[
-												7392,
-												7401
-											],
-											[
-												7536,
-												7545
-											],
-											[
-												7548,
-												7557
-											],
-											[
-												7608,
-												7617
-											],
-											[
-												7622,
-												7631
-											],
-											[
-												7692,
-												7701
-											],
-											[
-												7712,
-												7721
-											],
-											[
-												7749,
-												7758
-											],
-											[
-												7771,
-												7780
-											],
-											[
-												8021,
-												8030
-											],
-											[
-												8212,
-												8221
-											],
-											[
-												8748,
-												8809
-											],
-											[
-												9065,
-												9126
-											],
-											[
-												9382,
-												9443
-											],
-											[
-												9699,
-												9760
-											],
-											[
-												10016,
-												10077
-											],
-											[
-												10333,
-												10394
-											]
-										],
-										"scope": ""
-									}
 								},
 								"selection":
 								[
 									[
-										8785,
-										8785
+										1367,
+										1431
 									]
 								],
 								"settings":
 								{
-									"detect_indentation": false,
-									"output_tag": 5,
-									"result_base_dir": "",
-									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-									"result_line_regex": "^ +([0-9]+):",
-									"scroll_past_end": true,
-									"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-									"translate_tabs_to_spaces": false
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 4633.0,
+								"translation.y": 116.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 4,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/assets/src/main/mainController.js",
+							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderDirective.js",
 							"settings":
 							{
-								"buffer_size": 6359,
+								"buffer_size": 3264,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5590,
-										5590
+										1691,
+										1740
 									]
 								],
 								"settings":
 								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
 									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2209.0,
+								"translation.y": 303.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 5,
+							"file": "/Library/Developer/CommandLineTools/usr/libexec/git-core/git-mergetool--lib",
 							"settings":
 							{
-								"buffer_size": 2640,
+								"buffer_size": 7786,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										455,
-										455
+										172,
+										172
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
-								"translation.x": 55.0,
+								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -1171,53 +1761,301 @@
 						},
 						{
 							"buffer": 6,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/apps/home/config.yml",
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/static/webBones/admin-2256-wip/webBones.dev.js",
 							"settings":
 							{
-								"buffer_size": 736,
+								"buffer_size": 297597,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										736,
-										736
+										148407,
+										148407
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/YAML/YAML.tmLanguage"
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 79403.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 7,
-							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeRenderChannel.js",
+							"file": "/Users/michaelclark/.oh-my-zsh/lib/aliases.zsh",
 							"settings":
 							{
-								"buffer_size": 3081,
+								"buffer_size": 13332,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										986,
-										995
+										1900,
+										1915
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
-								"translation.x": 14.0,
+								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -1225,152 +2063,10 @@
 						},
 						{
 							"buffer": 8,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/pom.xml",
+							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/.git/MERGE_MSG",
 							"settings":
 							{
-								"buffer_size": 25447,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6376,
-										6381
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 3300.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/Users/michaelclark/workspaces/wf/bigsky/z_bigsky/flex/modules/AboutModule/pom.xml",
-							"settings":
-							{
-								"buffer_size": 4470,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3945,
-										3698
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1350.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 2,
-					"sheets":
-					[
-						{
-							"buffer": 10,
-							"file": "/Users/michaelclark/Documents/Notes/TreeRenderer.html",
-							"settings":
-							{
-								"buffer_size": 978,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										277,
-										277
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 11,
-							"settings":
-							{
-								"buffer_size": 8,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										8,
-										8
-									]
-								],
-								"settings":
-								{
-									"auto_name": "NG-CLASS",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 12,
-							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/treeRender/treeController.js",
-							"settings":
-							{
-								"buffer_size": 3465,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										453,
-										453
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 135.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 13,
-							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbController.js",
-							"settings":
-							{
-								"buffer_size": 967,
+								"buffer_size": 347,
 								"regions":
 								{
 								},
@@ -1383,40 +2079,133 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"curly": false,
+										"eqeqeq": true,
+										"es5": false,
+										"esnext": true,
+										"evil": true,
+										"forin": true,
+										"immed": true,
+										"indent": 4.0,
+										"latedef": true,
+										"maxlen": 120.0,
+										"newcap": true,
+										"noarg": true,
+										"node": true,
+										"nonew": true,
+										"predef":
+										[
+											"escape",
+											"unescape",
+											"define",
+											"require",
+											"log4javascript",
+											"jasmine",
+											"afterEach",
+											"beforeEach",
+											"describe",
+											"expect",
+											"inject",
+											"it",
+											"spyOn",
+											"waitsFor",
+											"runs"
+										],
+										"quotmark": false,
+										"regexp": true,
+										"strict": false,
+										"trailing": true,
+										"undef": true,
+										"unused": true,
+										"white": false
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "hard",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 14,
-							"file": "/Users/michaelclark/workspaces/wf/web-bones/src/components/breadcrumb/breadcrumbChannel.js",
-							"settings":
-							{
-								"buffer_size": 2387,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1756,
-										1756
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 357.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1430,7 +2219,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 35.0
 			},
 			"layout":
 			{
@@ -1441,18 +2230,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.539876497006,
 					1.0
 				],
 				"rows":
@@ -1462,7 +2244,11 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "100 32 1404 878 0 0 1920 1178 ",
+			"output.exec":
+			{
+				"height": 365.0
+			},
+			"position": "1920 268 1404 878 1920 120 1920 1058 ",
 			"replace":
 			{
 				"height": 68.0
@@ -1475,7 +2261,71 @@
 				[
 					[
 						"webbones.dev.js",
-						"BigSky/static/webBones/0.3.3/webBones.dev.js"
+						"BigSky/static/webBones/admin-2256-wip/webBones.dev.js"
+					],
+					[
+						"src/components/treerender/treerenderdirective.js",
+						"Web-Bones/src/components/treeRender/treeRenderDirective.js"
+					],
+					[
+						"test/specs/components/treerendere",
+						"Web-Bones/test/specs/components/treeRender/treeContainerDirectiveSpec.js"
+					],
+					[
+						"treecontainerdirec",
+						"Web-Bones/src/components/treeRender/treeContainerDirective.js"
+					],
+					[
+						"treerenderdirec",
+						"Web-Bones/src/components/treeRender/treeRenderDirective.js"
+					],
+					[
+						"documents/tests/images/test_views.py",
+						"BigSky/documents/tests/images/test_views.py"
+					],
+					[
+						"flexpom.xml",
+						"BigSky/flex/pom.xml"
+					],
+					[
+						"pom",
+						"BigSky/pom.xml"
+					],
+					[
+						"config.y",
+						"BigSky Home/config.yml"
+					],
+					[
+						"treecontanerelement.html",
+						"Web-Bones/test/specs/components/treeRender/treeContainerElement.html"
+					],
+					[
+						"treechannel",
+						"Web-Bones/src/components/treeRender/treeRenderChannel.js"
+					],
+					[
+						"web",
+						"BigSky/static/webBones/admin-2256-wip/webBones.dev.js"
+					],
+					[
+						"admin-",
+						"BigSky/static/webBones/admin-2256-wip/webBones.dev.js"
+					],
+					[
+						"static/webbones",
+						"BigSky/static/webBones/admin-2256-wip/webBones.dev.js"
+					],
+					[
+						".gitmod",
+						"BigSky/.gitmodules"
+					],
+					[
+						"apps/home",
+						"BigSky/apps/home/build.xml"
+					],
+					[
+						"confi",
+						"BigSky Home/config.yml"
 					],
 					[
 						"flex/modules/aboutmodule/pom.xml",
@@ -1524,7 +2374,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 250.0,
+			"side_bar_width": 319.0,
 			"status_bar_visible": true,
 			"window_id": 20,
 			"workspace_name": "/Users/michaelclark/workspaces/configs/ST2/Projects/WebFilings.sublime-project"

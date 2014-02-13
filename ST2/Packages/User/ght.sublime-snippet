@@ -1,0 +1,47 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+## Ultimate Problem:
+* ${1:N/A}
+
+
+## Solution:
+* ${2:N/A}
+
+
+## Testing Suggestions/Areas of Regression
+* ${3:N/A}
+
+
+## Unit Tests:
+* ${4:N/A}
+
+
+## Automated Test:
+* ${5:N/A}
+
+
+## Automated Run:
+* ${6:N/A}
+
+
+## Testing Notes:
+* ${7:N/A}
+
+
+## CI Build:
+* ${8:N/A}
+
+
+## Code Review:
+* ${9:N/A}
+
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ght</tabTrigger>
+  <description>Create Template for GitHub Pull Requests.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+</snippet>
+

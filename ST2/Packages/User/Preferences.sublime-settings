@@ -25,8 +25,8 @@
 	"shift_tab_unindent": true,
 	"show_minimap": false,
 	"show_tab_close_buttons": false,
-	"tab_size": 5,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": false
 }

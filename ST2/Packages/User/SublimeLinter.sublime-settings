@@ -1,0 +1,46 @@
+{
+    "javascript_linter": "jshint",
+    "sublimelinter_mark_style": "none",
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_popup_errors_on_save": true,
+    "sublimelinter_gutter_marks_theme": "hard",
+    "jshint_options":
+    {
+        // Predefined globals
+        "predef": [
+            "escape", "unescape",
+            // Require.js
+            "define", "require",
+            // Log4JS
+            "log4javascript",
+            // Jasmine
+            "jasmine", "afterEach", "beforeEach", "describe", "expect", "inject", "it", "spyOn", "waitsFor", "runs"
+        ],
+        // Enforcing Options
+        "curly": false,
+        "eqeqeq": true,
+        "immed": true,
+        "indent": 4,
+        "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "nonew": true,
+        "quotmark": false,
+        "regexp": true,
+        "undef": true,
+        "unused": true,
+        "strict": false,
+        "trailing": true,
+        "maxlen": 120,
+        "forin": true,
+        // Relaxing Options
+        "es5": false,
+        "esnext": true,
+        "evil": true,
+        // relax JSLint style-checking
+        "white": false,
+        // Environment Options
+        "browser": true,
+        "node": true
+    }
+}

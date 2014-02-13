@@ -7,12 +7,14 @@
 		"CTags",
 		"FindKeyConflicts",
 		"Fix Mac Path",
+		"Gist",
 		"Github Tools",
 		"KeymapManager",
 		"Keymaps",
 		"Package Control",
 		"Python Anywhere Editor",
 		"QuickThemes",
-		"SnippetMaker"
+		"SnippetMaker",
+		"SublimeLinter"
 	]
 }
