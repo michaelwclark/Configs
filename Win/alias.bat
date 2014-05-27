@@ -46,6 +46,7 @@ REM # ------ Configs ------#
 REM # ------ Misc ------#
 doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 doskey subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $1
+doskey wget="C:\Program Files (x86)\GnuWin32\bin\wget.exe" $*
 
 REM # ------ LS CD------ #
 doskey ls=ls -al --color
