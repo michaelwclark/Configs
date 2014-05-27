@@ -1,0 +1,1 @@
+/DIR  C:\Users\Mike.Clark\Projects\ C:\Users\Mike.Clark\Projects\Configs\Win\alias.bat&cmd
